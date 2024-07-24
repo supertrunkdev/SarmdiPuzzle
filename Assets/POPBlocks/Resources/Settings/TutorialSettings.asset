@@ -78,35 +78,7 @@ MonoBehaviour:
           showNextWindowOn: 2
     - level: 3
       windows:
-        array:
-        - description: Touch 6 blocks to create a BOMB
-          selection:
-            selectionTypes: 0
-            selectMatch: 6
-            condition: 0
-            selectBonusItemType: 0
-            selectAllBlocks: 0
-            selectBlock: {x: 0, y: 0}
-            selectRowColumn: 0
-          showButton: 0
-          tutorialPopup: {fileID: -5207152975362788772, guid: abb02091d5455454ab7427a620ee74f8, type: 3}
-          noFade: 0
-          uiHighlightObject: 
-          showNextWindowOn: 1
-        - description: Awesome! Now touch the BOMB to see how it works!
-          selection:
-            selectionTypes: 1
-            selectMatch: 0
-            condition: 0
-            selectBonusItemType: 1
-            selectAllBlocks: 0
-            selectBlock: {x: 0, y: 0}
-            selectRowColumn: 0
-          showButton: 0
-          tutorialPopup: {fileID: -5207152975362788772, guid: abb02091d5455454ab7427a620ee74f8, type: 3}
-          noFade: 0
-          uiHighlightObject: 
-          showNextWindowOn: 2
+        array: []
     - level: 4
       windows:
         array:

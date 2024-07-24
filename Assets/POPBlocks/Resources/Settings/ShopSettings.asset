@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f120804c1af4d12859890eb4f9cda57, type: 3}
   m_Name: ShopSettings
   m_EditorClassIdentifier: 
-  enable: 1
   shopItems:
     array:
     - productID: com.candysmith.popblocks.pack1

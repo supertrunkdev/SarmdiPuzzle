@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 8
   moves: 22
-  colors: 6
+  colors: 4
   size: {x: 7, y: 9}
   stars:
     array: 200300006c070000280a0000

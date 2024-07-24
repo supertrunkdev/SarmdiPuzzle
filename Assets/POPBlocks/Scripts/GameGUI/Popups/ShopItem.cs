@@ -13,6 +13,7 @@
 #if UNITY_INAPP
 using POPBlocks.Scripts.Integrations;
 #endif
+using POPBlocks.Scripts.Popups;
 using TMPro;
 using UnityEngine;
 
@@ -26,6 +27,8 @@ namespace POPBlocks.Scripts.GameGUI.Popups
 
         public void Buy()
         {
+            GameManager.Instance.coins.IncrementValue(10000);
+            return;
 #if UNITY_INAPP
             UnityInAppsIntegration.THIS.BuyProductID(productID);
             SoundBase.Instance.PlayOneShot(SoundBase.Instance.cash);
